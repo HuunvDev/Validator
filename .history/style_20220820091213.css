@@ -1,0 +1,17 @@
+
+*{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+body{
+    background-color:rgb(180, 160, 160);
+}
+.main {
+    width: 300px;
+    box-shadow:  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    box-shadow: 0 0 0 rgb(0 0 0 / 10%);
+    margin: auto;
+    margin-top: 100px;
+    padding: 0 20px;
+}

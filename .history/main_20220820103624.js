@@ -1,0 +1,6 @@
+function validator{
+
+}
+function isRequired(){
+    
+}

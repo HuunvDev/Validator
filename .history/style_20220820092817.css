@@ -1,0 +1,41 @@
+
+*{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+body{
+    background-color:rgb(180, 160, 160);
+}
+.main {
+    width: 300px;
+    box-shadow: 0 0 0 rgb(0 0 0 / 10%);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff;
+    font-family: tahoma;
+}
+h3.heading {
+    text-align: center;
+}
+p.desc {
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    padding: 15px 0;
+}
+.form-group {
+    padding: 15px 0;
+}
+
+label.form-lable {
+    font-size: 14px;
+}
+input {
+    width: 290px;
+    height: 25px;
+}
+button{
+    
+}

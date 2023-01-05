@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main">
+        <form action="" method="POST" class="form" id="form-1">
+            <h3 class="heading">Thành viên đăng kí</h3>
+            <p class="desc">Cùng nhau học lập trình tại F8</p>
+            <div class="pacer"></div>
+            <div class="form-group">
+                <label for="fullName" class="form-lable">Tên đầy đủ</label><br>
+                <input type="text" id="fullName" name="fullName" placeholder="Vd:nguyễn hữu"><br>
+                <!-- <i class="fas fa-exclamation-triangle warning"></i> -->
+                <span class="form-message">
+                </span>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-lable">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="Vd:email@gmail.com"><br>
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-lable">Mật khẩu</label><br>
+                <input type="text" id="password" name="password" placeholder="Vui lòng nhập mật khẩu"><br>
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="password_confirmation" class="form-lable">Nhập lại mật khẩu</label><br>
+                <input type="text" id="password_confirmation" name="password_confirmation" placeholder="Vui lòng nhập lại mật khẩu"><br>
+                <span class="form-message"></span>
+            </div>
+           <button class="form-submit">Đăng kí</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        validator({
+            form: '#form-1',
+            ru
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+form{
+    width: 400px;
+    margin: auto;
+    font-family: tahoma;
+    text-align: center;
+    background-color: #fff;
+}
+*{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(225, 204, 204);
+}
+input{
+    width: 350px;
+    height: 30px;
+    margin-bottom:15px;
+}
